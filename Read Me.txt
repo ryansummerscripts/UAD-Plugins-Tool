@@ -1,5 +1,5 @@
 ======================
-uad_plugins_tool_1.0.0
+UAD Plugins Tool 1.0.0
 ======================
 
 Tested on macOS Monterey running UAD Software v11.3
