@@ -71,11 +71,18 @@ Example:
 sudo /Users/username/Desktop/uad_plugins_tool_1.0.0.sh
 ------------------------------------------------------
 
+Done! 
 
-It should now be running and automatically removing all unused plugins!
+
+It should now be running and automatically removing all unused plugins.
 When it's finished, it will display "Cleanup complete"
 The process may take a few minutes to run but is much faster than manual deletion as well as less prone to user error. 
 And once you edit your plugin selection the first time, things should be much more manageable from there on out.
 
-Feel free and get in touch here or via socials if you experience any issues, have suggestions or want to donate!
-https://github.com/ryansummerscripts/macOS-Automation
+------------------------------------------
+
+
+Feel free and get in touch here or via socials if you experience any issues, have suggestions, for more macOS Scripts or want to donate!
+
+https://github.com/ryansummerscripts
+
