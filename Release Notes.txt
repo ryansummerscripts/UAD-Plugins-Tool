@@ -1,0 +1,14 @@
+
+UAD Plugins Tool 1.0.1:
+
+This update includes optimizations for searching in plugin folders with thousands of plugins.
+
+Changes:
+
+- Adds "/Universal Audio" to directory paths to reduce overall search time
+- Creates a temporary "Universal Audio" directory for Audio Unit's to avoid searching all plugins in the Components directory
+
+
+UAD Plugins Tool 1.0.1
+
+Initial Release
