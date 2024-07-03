@@ -29,8 +29,6 @@ Some things to note:
 
 Currently, there's no simple option to, for example, delete the vst & vst3 versions but keep the AU & AAX versions of a plugin you own - unless you were to make a separate script and exclude those directories.
 
-Hopefully in a future release!
-
 ------------------------------------------
 
 Editing Instructions:
