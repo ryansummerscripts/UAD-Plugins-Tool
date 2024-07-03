@@ -2,7 +2,8 @@
 UAD Plugins Tool 1.0.0
 ======================
 
-Tested on macOS Monterey running UAD Software v11.3
+Tested on macOS Monterey and Sonoma
+Running UAD Software v11.3
 
 ------------------------------------------
 
