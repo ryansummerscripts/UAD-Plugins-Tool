@@ -3,7 +3,7 @@ UAD Plugins Tool is a basic shell script to use in macOS's Terminal.app.
 Its purpose is to delete all unused AAX, AU, VST, & VST3 UAD plugins as well as their PDF manuals and the UAD uninstaller.
 
 
-Instructions below:
+Full instructions below:
 
 
 ----------------------
@@ -18,8 +18,7 @@ Running UAD Software v11.3
 Introduction:
 
 This is a basic shell script to use in macOS's Terminal.app.
-Its purpose is to delete all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals. 
-It also deletes the UAD uninstaller.
+Its purpose is to delete all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals and the UAD uninstaller.
 
 Currently, all plugins are listed/populated in this script. However, by default, they are all 'commented out' with the "#" symbol. 
 Since everyone's plugin usage/ownership is different, it's necessary to manually edit this script to your own personal needs.
