@@ -1,7 +1,7 @@
 
 UAD Plugins Tool 1.0.1:
 
-This update includes optimizations for searching in plugin folders with thousands of plugins.
+This update includes time-saving optimizations for searching in plugin folders with thousands of plugins.
 
 Changes:
 
