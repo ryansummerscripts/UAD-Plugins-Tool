@@ -40,7 +40,7 @@ Editing Instructions:
 2. Under where it says "# Function to delete documentation files" and "# List of plugins to delete", you'll see the lists of plugin titles. 
 By default they're commented out by the "#" symbol. Simply remove the "#" symbol for the titles you wish to delete. To prevent a plugin title from being deleted at any time in the future, simply add back the "#".
 
-4. Save changes and close TextEdit
+3. Save changes and close TextEdit
 
 ------------------------------------------
 
