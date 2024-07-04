@@ -9,6 +9,6 @@ Changes:
 - Creates a temporary "Universal Audio" directory for Audio Unit's to avoid searching all plugins in the Components directory
 
 
-UAD Plugins Tool 1.0.0
+UAD Plugins Tool 1.0.0:
 
 Initial Release
