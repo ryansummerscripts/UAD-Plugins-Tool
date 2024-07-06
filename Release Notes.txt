@@ -6,7 +6,7 @@ This update includes time-saving optimizations for searching in plugin folders w
 Changes:
 
 - Adds "/Universal Audio" to directory paths to reduce overall search time
-- Creates a temporary "Universal Audio" directory for Audio Unit's to avoid searching all plugins in the Components directory
+- Creates a temporary "Universal Audio" directory for Audio Units to avoid searching all plugins in the Components directory
 
 
 UAD Plugins Tool 1.0.0:
