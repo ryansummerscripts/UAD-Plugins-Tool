@@ -1,3 +1,14 @@
+UAD Plugins Tool 1.1.0:
+
+- completely redesigned the script to move unused plugins rather than search and permanently delete them.
+This allows for the process to run in seconds rather than minutes. Unused plugins now get moved to a folder on the the desktop called "UAD_Backup" which contains the following subfolders: AAX, Component, Documentation, VST, VST_Mono & VST3. 
+
+- removed the function to delete the UAD uninstaller, as it's file size is negligible and may help users properly clean up UAD files if they need to use this  
+
+- removed the need to comment out plugin titles under the documentation section. (This is now handled by the section under "# List of plugin names")
+
+- edited Instructions.txt to reflect this new implementation
+
 
 UAD Plugins Tool 1.0.1:
 
@@ -6,9 +17,9 @@ This update includes time-saving optimizations for searching in plugin folders w
 Changes:
 
 - Adds "/Universal Audio" to directory paths to reduce overall search time
-- Creates a temporary "Universal Audio" directory for Audio Units to avoid searching all plugins in the Components directory
+- Creates a temporary "Universal Audio" directory for Audio Unit's to avoid searching all plugins in the Components directory
 
 
 UAD Plugins Tool 1.0.0:
 
-Initial Release
+- Initial Release
