@@ -1,50 +1,65 @@
 # UAD Plugins Tool
-UAD Plugins Tool is a basic shell script that runs in macOS's Terminal.app.
-Its purpose is to delete all unused/unwanted AAX, AU, VST, & VST3 UAD plugins as well as their PDF manuals and the UAD uninstaller.
+UAD Plugins Tool is a basic shell script that runs in macOS's Terminal app.
+Its purpose is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
 
 
 Full instructions below:
 
 
 ----------------------
-UAD Plugins Tool 1.0.1
+UAD Plugins Tool 1.1.0
 ----------------------
 
 Tested on macOS Monterey and Sonoma
-Running UAD Software v11.3
+Running UAD Software v11.5.0
 
 ------------------------------------------
 
 Introduction:
 
 This is a basic shell script to use in macOS's Terminal.app.
-Its purpose is to delete all unused/unwanted AAX, AU, VST, & VST3 plugins as well as their PDF manuals and the UAD uninstaller.
+Its purpose is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
 
-Currently, all plugins are listed/populated in this script. However, by default, they are all 'commented out' with the "#" symbol. 
+Currently, all plugins are listed/populated in this script. However, by default, they are all 'commented out' with the "#" symbol before each plugin title. 
 Since everyone's plugin usage/ownership is different, it's necessary to manually edit this script to your own personal needs.
 
 Below are instructions on how to edit as well as run the script.
 
-Some things to note:
-- File deletion is instantaneous and files will not appear in the trash, so be sure to make a backup! 
-- I've included a test script with only a few plugins to make backing up/testing a little easier.
-- Plugin titles without a "#" before their names will be deleted from all four directories here:
+------------------------------------------
+
+File Management:
+
+Plugin titles without a "#" before their names will be removed from all four directories here:
 
 /Library/Application Support/Avid/Audio/Plug-Ins/Universal Audio
 /Library/Audio/Plug-Ins/Components
 /Library/Audio/Plug-Ins/VST/Universal Audio
 /Library/Audio/Plug-Ins/VST3/Universal Audio
 
-Currently, there's no simple option to, for example, delete the vst & vst3 versions but keep the AU & AAX versions of a plugin you own - unless you were to make a separate script and exclude those directories.
+They will then be moved to a newly created folder on the desktop named "UAD_Backup", which has the following sub directories:
+
+AAX
+Component
+Documentation
+VST
+VST_Mono
+VST3
+
+From here, you can either backup the plugins or delete them.
+
+Currently, there's no function to, for example, move the VST & VST3 versions but keep the AU & AAX versions of a plugin you own - unless you were to make a separate script and exclude those directories.
 
 ------------------------------------------
 
 Editing Instructions:
 
-1. To edit the script, right click on the shell script file "uad_plugins_tool_1.0.1.sh" and open with TextEdit.app
+1. To edit the script, right click on the shell script file "uad_plugins_tool_1.1.0.sh" and open with TextEdit.app
 
-2. Under where it says "# Function to delete documentation files" and "# List of plugins to delete", you'll see the lists of plugin titles. 
-By default they're commented out by the "#" symbol. Simply remove the "#" symbol for the titles you wish to delete. To prevent a plugin title from being deleted at any time in the future, simply add back the "#".
+2. Under where it says "# List of plugin names", you'll see the list of plugin titles. 
+
+By default they're commented out by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
+
+To prevent a plugin title from being deleted at any time in the future, simply add back the "#".
 
 3. Save changes and close TextEdit
 
@@ -55,13 +70,13 @@ Permissions Instructions:
 
 To execute a shell script, you need to first give it execute permissions.
 
-1. Open Terminal.app, paste "sudo chmod u+x " (with the space at the end), then drag the "uad_plugins_tool_1.0.1.sh" file onto the terminal window, press enter and then your password.
+1. Open Terminal.app, paste "sudo chmod u+x " (with the space at the end), then drag the "uad_plugins_tool_1.1.0.sh" file onto the terminal window, press enter and then your password.
 
 
 Example:
 
 ----------------------------------------------------------------
-sudo chmod u+x /Users/username/Desktop/uad_plugins_tool_1.0.1.sh
+sudo chmod u+x /Users/username/Desktop/uad_plugins_tool_1.1.0.sh
 ----------------------------------------------------------------
 
 ------------------------------------------
@@ -69,20 +84,20 @@ sudo chmod u+x /Users/username/Desktop/uad_plugins_tool_1.0.1.sh
 Executing Instructions:
 
 
-1. In Terminal, type "sudo " (with the space at the end), and then once again, drag the "uad_plugins_tool_1.0.1.sh" file onto the terminal window, press enter and then your password.
+1. In Terminal, type "sudo " (with the space at the end), and then once again, drag the "uad_plugins_tool_1.1.0.sh" file onto the terminal window, press enter and then your password.
 
 Example:
 
 ------------------------------------------------------
-sudo /Users/username/Desktop/uad_plugins_tool_1.0.1.sh
+sudo /Users/username/Desktop/uad_plugins_tool_1.1.0.sh
 ------------------------------------------------------
 
 Done! 
 
 
 It should now be running and automatically removing all unused plugins.
-When it's finished, it will display "Cleanup complete".
-The process can take several minutes to run based on how many plugins need to be removed, but is better than manual deletion as well as less prone to user error. 
+When finished, it will display "Process completed."
+
 Once you edit your removal preferences the first time, you're all set for tackling the next UAD Software update!
 
 ------------------------------------------
