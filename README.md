@@ -32,9 +32,13 @@ File Management:
 Plugin titles without a "#" before their names will be removed from all four directories here:
 
 /Library/Application Support/Avid/Audio/Plug-Ins/Universal Audio
+
 /Library/Audio/Plug-Ins/Components
+
 /Library/Audio/Plug-Ins/VST/Universal Audio
+
 /Library/Audio/Plug-Ins/VST3/Universal Audio
+
 
 They will then be moved to a newly created folder on the desktop named "UAD_Backup", which has the following sub directories:
 
