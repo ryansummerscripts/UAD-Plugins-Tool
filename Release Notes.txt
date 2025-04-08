@@ -1,3 +1,11 @@
+UAD Plugins Tool 1.1.1:
+
+- changed the extension of the script to .command instead of a .sh in order to run it simply by double clicking it
+- added a safety confirmation requiring a "y" or "n" to prevent running by accident
+- added instructions on de-quarantining the script so that it's not automatically blocked by Apple's gatekeeper (due to me not yet being in the paid Apple Developer Program.)
+- simplified, clarified & colorized text output
+- Updated testing info for macOS Sequoia and UAD Software v11.6.0
+
 UAD Plugins Tool 1.1.0:
 
 - completely redesigned the script to move unused plugins rather than search and permanently delete them.
