@@ -77,7 +77,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURYOURUSERNAME/Downloads/uad_plugins_tool_1.1.1.command 
+prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.1.command 
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
