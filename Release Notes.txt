@@ -1,8 +1,6 @@
 UAD Plugins Tool 1.1.2:
 - added support for UAD Software v11.7.0
 - added the new "UAD A-Type Multiband Enhancer" to the list of plugins
-- added an icon to the .command file
-
 
 UAD Plugins Tool 1.1.1:
 - changed the extension of the script to .command instead of a .sh in order to run it simply by double clicking it
