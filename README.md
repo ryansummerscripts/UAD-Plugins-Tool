@@ -12,6 +12,7 @@ UAD Plugins Tool 1.1.2
 
 Tested on:
 ✅ macOS Yosemite through Sequoia 15.4
+
 ✅ UAD Software v9.x.x through v11.7.0
 
 ------------------------------------------
