@@ -7,12 +7,12 @@ Full instructions below:
 
 
 ----------------------
-UAD Plugins Tool 1.1.1
+UAD Plugins Tool 1.1.2
 ----------------------
 
 Tested on:
 ✅ macOS Yosemite through Sequoia 15.4
-✅ UAD Software v9.x.x through v11.6.0
+✅ UAD Software v9.x.x through v11.7.0
 
 ------------------------------------------
 
@@ -90,7 +90,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.1.command 
+prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.2.command 
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
