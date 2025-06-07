@@ -33,25 +33,22 @@ Below are instructions on how to edit as well as run the script.
 📂 File Management:
 
 Plugin titles without a "#" before their names will be removed from all four directories here:
-
+```
 /Library/Application Support/Avid/Audio/Plug-Ins/Universal Audio
-
 /Library/Audio/Plug-Ins/Components
-
 /Library/Audio/Plug-Ins/VST/Universal Audio
-
 /Library/Audio/Plug-Ins/VST3/Universal Audio
-
+```
 
 They will then be moved to a newly created folder on the desktop named "UAD_Backup", which has the following sub directories:
-
+```
 AAX
 Component
 Documentation
 VST
 VST_Mono
 VST3
-
+```
 From here, you can either backup the plugins or delete them.
 
 Currently, this will not move, for example, the VST & VST3 versions but keep the AU & AAX versions of a plugin you own - unless you were to make a separate script and exclude those directories. 
@@ -67,22 +64,23 @@ By default, macOS flags & quarantines unsigned files downloaded from the interne
 If you wish to run it by double clicking it, you can remove its quarantine attributes as well as sign the script.
 
 1. Copy the command below inside the "quotes" (including the space at the end of 'prep'):
-
+```
 "function prep() {
     for file in "$@"; do
         sudo xattr -cr "$file" # clears all extended attributes
 	sudo xattr -r -d com.apple.quarantine "$file" # removes the quarantine flag to bypass macOS Gatekeeper warnings
         sudo codesign --force --deep --sign - "$file" # signs the file and it's contents with an ad-hoc signature
 	sudo chmod +x "$file" # grants execute permission to the file, allowing it to run
-    done
+     done
 }
 
-prep " 
+prep "
+```
 
 2. Paste the command into terminal and drag and drop the .command file onto the Terminal window, then press Enter.
 
 Example:
-
+```
 function prep() {
     for file in "$@"; do
         sudo xattr -cr "$file"
@@ -93,6 +91,7 @@ function prep() {
 }
 
 prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.2.command
+```
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
