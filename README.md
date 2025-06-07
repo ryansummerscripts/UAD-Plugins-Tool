@@ -63,9 +63,9 @@ If you don't use certain formats, it's easier to simply delete them yourself.
 By default, macOS flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
 If you wish to run it by double clicking it, you can remove its quarantine attributes as well as sign the script.
 
-1. Copy the command below inside the "quotes" (including the space at the end of 'prep'):
+1. Copy the command below (including the space at the end of 'prep'):
 ```
-"function prep() {
+function prep() {
     for file in "$@"; do
         sudo xattr -cr "$file" # clears all extended attributes
 	sudo xattr -r -d com.apple.quarantine "$file" # removes the quarantine flag to bypass macOS Gatekeeper warnings
@@ -74,7 +74,7 @@ If you wish to run it by double clicking it, you can remove its quarantine attri
      done
 }
 
-prep "
+prep 
 ```
 
 2. Paste the command into terminal and drag and drop the .command file onto the Terminal window, then press Enter.
