@@ -7,12 +7,12 @@ Full instructions below:
 
 
 ----------------------
-UAD Plugins Tool 1.1.2
+UAD Plugins Tool 1.1.3
 ----------------------
 
 Tested on:
 
-✅ macOS Yosemite through Sequoia 15.4
+✅ macOS Yosemite through Sequoia 15.5
 
 ✅ UAD Software v9.x.x through v11.7.0
 
@@ -90,7 +90,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.2.command
+prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.3.command
 ```
 
 3. Type your password and hit Enter again (password will be invisible).
@@ -114,12 +114,16 @@ To prevent a plugin title from being deleted at any time in the future, simply a
 
 ▶️ Running Instructions:
 
-1. Simply double click the command file. It will then open Terminal and begin running the script.
+1. Simply double click the command file. It will then open Terminal and display a confirmation before running the script.
+
+2. Press y and then enter.
 
 It should now be running and automatically removing all unused plugins.
 When finished, it will display "Process completed."
 
 Done! 
+
+Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
 
 ------------------------------------------
 
