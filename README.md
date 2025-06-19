@@ -67,11 +67,11 @@ If you wish to run it by double clicking it, you can remove its quarantine attri
 ```
 function prep() {
     for file in "$@"; do
-        sudo xattr -cr "$file" # clears all extended attributes
-	sudo xattr -r -d com.apple.quarantine "$file" # removes the quarantine flag to bypass macOS Gatekeeper warnings
-        sudo codesign --force --deep --sign - "$file" # signs the file and it's contents with an ad-hoc signature
-	sudo chmod +x "$file" # grants execute permission to the file, allowing it to run
-     done
+        sudo xattr -cr "$file"
+        sudo xattr -r -d com.apple.quarantine "$file"
+        sudo codesign --force --deep --sign - "$file"
+        sudo chmod +x "$file"
+    done
 }
 
 prep 
