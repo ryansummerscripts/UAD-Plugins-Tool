@@ -14,9 +14,9 @@ Tested on:
 
 ✅ macOS Yosemite through Sequoia 15.5
 
-✅ Intel & Apple Silcon
-
 ✅ UAD Software v9.x.x through v11.7.0
+
+✅ Intel & Apple Silcon
 
 ------------------------------------------
 
