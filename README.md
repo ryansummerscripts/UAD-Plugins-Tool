@@ -1,14 +1,6 @@
-# UAD Plugins Tool
-UAD Plugins Tool is a basic command file that runs a script in macOS's Terminal.app.
-Its purpose is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
-
-
-Full instructions below:
-
-
-----------------------
-UAD Plugins Tool 1.1.3
-----------------------
+--------------------
+UAD Plugins Tool 2.0
+--------------------
 
 Tested on:
 
@@ -18,15 +10,15 @@ Tested on:
 
 ✅ Intel & Apple Silcon
 
+(See below for instructions on updating to the latest UAD Plugins Tool)
+
 ------------------------------------------
 
-ℹ️ Introduction:
+UAD Plugins Tool is a menu-style command line tool that runs a script in macOS's Terminal.app.
 
-This is a basic command file that runs a script in macOS's Terminal.app.
-Its purpose is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
+As of v2.0, it now includes options to: run the main UAD plugin cleanup, test a dry run, show your current plugin removal preferences, import your preferences from older versions of this tool, check for updates and view the built-in change log - all within one place.
 
-Currently, all plugins are listed/populated in this script. However, by default, they are all 'commented out' with the "#" symbol before each plugin title. 
-Since everyone's plugin usage/ownership is different, it's necessary to manually edit this script to your own personal needs.
+The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
 
 Below are instructions on how to edit as well as run the script.
 
@@ -53,9 +45,9 @@ VST3
 ```
 From here, you can either backup the plugins or delete them.
 
-Currently, this will not move, for example, the VST & VST3 versions but keep the AU & AAX versions of a plugin you own - unless you were to make a separate script and exclude those directories. 
+Currently, this will not move, for example, the VST & VST3 versions but keep the AU & AAX versions of a plugin you own - but hopefully that will change in a future update! 
 
-If you don't use certain formats, it's easier to simply delete them yourself.
+If you don't use certain formats, it's pretty easy to just delete them yourself for now.
 
 ------------------------------------------
 
@@ -108,7 +100,7 @@ prep /Users/YOURUSERNAME/Downloads/uad_plugins_tool_1.1.3.command
 
 By default they're commented out by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
 
-To prevent a plugin title from being deleted at any time in the future, simply add back the "#".
+(To prevent a plugin title from being deleted at any time in the future, simply add back the "#").
 
 3. Save changes and close TextEdit
 
@@ -116,16 +108,25 @@ To prevent a plugin title from being deleted at any time in the future, simply a
 
 ▶️ Running Instructions:
 
-1. Simply double click the command file. It will then open Terminal and display a confirmation before running the script.
+1. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
+Upon running the cleanup function, a confirmation will appear before running the script.
 
 2. Press y and then enter.
 
-It should now be running and automatically removing all unused plugins.
-When finished, it will display "Process completed."
+It will now be running and automatically removing all unused plugins.
+Once finished, it will display "✅ Done" along with a summary of the files removed.
 
-Done! 
+3. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
 
-Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
+------------------------------------------
+
+🔄 Updating to UAD Plugins Tool v2.0:
+
+1. Run the new UAD_Plugins_Tool_2.0.command file.
+2. Choose option 4. '↪️ Import Preferences'.
+3. Drag your old uad_plugins_tool.command file onto the terminal window and press Enter.
+
+Done! Continue using the script.
 
 ------------------------------------------
 
