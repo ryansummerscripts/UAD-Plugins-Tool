@@ -30,6 +30,7 @@ Option 6) 📝 ChangeLog
 
 ![Screenshot 2025-09-08 at 10 49 19 AM](https://github.com/user-attachments/assets/1996b2f0-c942-483a-83a1-9bfc20aedfe9)
 
+------------------------------------------
 
 Tested on:
 
