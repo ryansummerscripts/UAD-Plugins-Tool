@@ -123,7 +123,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 🔄 Updating to UAD Plugins Tool v2.0:
 
 
-1. Run the new UAD_Plugins_Tool_2.0.command file.
+1. Run the new UAD_Plugins_Tool_v2.0.command file.
 2. Choose option 4. '↪️ Import Preferences'.
 3. Drag your old uad_plugins_tool.command file onto the terminal window and press Enter.
 
