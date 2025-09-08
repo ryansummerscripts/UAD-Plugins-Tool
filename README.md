@@ -123,7 +123,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_2.0.command
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.0.command
 ```
 
 3. Type your password and hit Enter again (password will be invisible).
