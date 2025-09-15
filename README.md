@@ -16,8 +16,6 @@ UAD Plugins Tool v2.0
 Main Menu:
 </div>
 
-<br>
-
 <div align="center">
 <img width="745" height="466" alt="0  Main Menu" src="https://github.com/user-attachments/assets/b7aad2fd-089d-4a40-b421-b1236947ee2f" />
 </div>
@@ -27,8 +25,6 @@ Main Menu:
 <div align="center">
 Option 1) 🗑️  Run UAD Cleanup
 </div>
-
-<br>
 
 <div align="center">
 <img width="745" height="466" alt="1  UAD Cleanup option" src="https://github.com/user-attachments/assets/66378a5b-75f0-427c-898c-69990336c120" />
@@ -40,8 +36,6 @@ Option 1) 🗑️  Run UAD Cleanup
 Option 2) 🔍 UAD Cleanup [DRY RUN]
 </div>
 
-<br>
-
 <div align="center">
 <img width="745" height="1052" alt="2  Dry Run Option" src="https://github.com/user-attachments/assets/2762e25e-c185-4374-94f3-d18345f5ed1d" />
 </div>
@@ -51,8 +45,6 @@ Option 2) 🔍 UAD Cleanup [DRY RUN]
 <div align="center">
 Option 3) ⚙️  Show Preferences
 </div>
-
-<br>
 
 <div align="center">
 <img width="745" height="1042" alt="3  Show Prefs Option" src="https://github.com/user-attachments/assets/0465cd49-1edb-4019-a6b8-d457edf37ac0" />
@@ -64,8 +56,6 @@ Option 3) ⚙️  Show Preferences
 Option 4) ↪️  Import Preferences
 </div>
 
-<br>
-
 <div align="center">
 <img width="745" height="520" alt="4  Import Prefs option" src="https://github.com/user-attachments/assets/a93e20fb-17cf-49cc-8af7-90afdc6c6c47" />
 </div>
@@ -73,7 +63,8 @@ Option 4) ↪️  Import Preferences
 <br>
 
 <div align="center">
-Option 5) 🔄 Check For Updates (This just opens up the UAD Plugins Tool webpage in your default browser)
+Option 5) 🔄 Check For Updates (No GUI)<br>
+(This just opens up the UAD Plugins Tool webpage in your default browser)
 </div>
 
 <br>
@@ -81,8 +72,6 @@ Option 5) 🔄 Check For Updates (This just opens up the UAD Plugins Tool webpag
 <div align="center">
 Option 6) 📝 ChangeLog
 </div>
-
-<br>
 
 <div align="center">
 <img width="745" height="476" alt="6  ChangeLog option" src="https://github.com/user-attachments/assets/fcec42be-074c-442f-8091-61956d7966a3" />
