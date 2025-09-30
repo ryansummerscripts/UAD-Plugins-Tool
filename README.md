@@ -102,7 +102,7 @@ Tested on:
 
 ------------------------------------------
 
-ℹ️ Introduction:
+ℹ️ Introduction
 
 UAD Plugins Tool is a menu-style command line tool that runs in macOS's Terminal.app.
 
@@ -118,7 +118,7 @@ Below are instructions on how to edit as well as run the script.
 
 ------------------------------------------
 
-📂 File Management:
+📂 File Management
 
 Plugin titles without a "#" before their names will be removed from all four directories here:
 ```
@@ -145,7 +145,7 @@ If you don't use certain formats, it's pretty easy to just delete them yourself 
 
 ------------------------------------------
 
-🧼 De-Quarantining & Signing:
+🧼 De-Quarantining & Signing
 
 
 By default, macOS flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
@@ -191,7 +191,7 @@ prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.0.command
 
 ------------------------------------------
 
-📝 Editing Instructions:
+📝 Editing Instructions
 
 1. To edit the script, right click on the command file and choose Open With > TextEdit.app
 
@@ -210,7 +210,7 @@ By default they're commented out by the "#" symbol. Simply delete the "#" symbol
 
 ------------------------------------------
 
-▶️ Running Instructions:
+▶️ Running Instructions
 
 1. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
 Upon running the cleanup function, a confirmation will appear before running the script.
@@ -232,7 +232,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 
 ------------------------------------------
 
-🔄 Updating to UAD Plugins Tool v2.0:
+🔄 Updating UAD Plugins Tool
 
 1. Run the new UAD_Plugins_Tool_2.0.command file.
 2. Choose option 4. '↪️ Import Preferences'.
@@ -243,6 +243,48 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 </div>
 
 Done! Continue using the script.
+
+------------------------------------------
+
+🔌 Backing Up Plugins
+
+Backing up plugins is highly recommended in case you ever need to open an old session that uses one, or if you wish to try out or buy a new plugin.
+
+💡 For example, drag a plugin to the system plugin directories below:
+
+Example:
+```
+BackupDrive/Unused_Plugins/Components/UAD *.component --> '/Library/Audio/Plug-Ins/Components'
+```
+```
+BackupDrive/Unused_Plugins/AAX/Universal Audio/UAD *.aaxplugin --> '/Library/Application Support/Avid/Audio/Plug-Ins/Universal Audio'
+```
+```
+BackupDrive/Unused_Plugins/VST/Universal Audio/UAD *.vst --> '/Library/Audio/Plug-Ins/VST/Universal Audio'
+```
+<em>(VSTs can be placed in any of the sub-category folders, or outside of them)</em>
+```
+BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/Plug-Ins/VST3/Universal Audio'
+```
+<em>(VST3s can be placed in any of the sub-category folders, or outside of them)</em>
+
+------------------------------------------
+
+📚 UAD Resources
+
+
+Latest UAD Software v11.8.1 Direct Download:
+```
+https://builds.uaudio.com/apps/uad2/UAD_11_8_1_75.pkg
+```
+Previous UAD Software versions:
+```
+https://help.uaudio.com/hc/en-us/articles/215267203-UAD-Software-Archives#h_01H9V0DA4FN4W1HE84V40V3WJ7
+```
+Release Notes:
+```
+https://help.uaudio.com/hc/en-us/articles/215270403-UAD-Version-History-Release-Notes
+```
 
 ------------------------------------------
 
