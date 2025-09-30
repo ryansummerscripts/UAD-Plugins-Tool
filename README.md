@@ -3,8 +3,17 @@
 UAD Plugins Tool v2.0
 ---------------------
 
+<p align="center">
+  <a href="https://shop.ryansummer.com/p/uad-plugins-tool/">
+    <img src="https://media.sellfy.store/images/EbcIl29G/W3Bt/uad_plugins_tool_icon.png" alt="UAD Plugins Tool">
+  </a>
+</p>
 
-<br>
+<div align="center">
+https://shop.ryansummer.com/p/uad-plugins-tool/
+</div>
+
+<br><br>
 
 <div align="center">
 📸 Screenshots:
