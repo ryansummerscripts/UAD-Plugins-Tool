@@ -250,7 +250,7 @@ Done! Continue using the script.
 
 Backing up plugins is highly recommended in case you ever need to open an old session that uses one, or if you wish to try out or buy a new plugin.
 
-💡 For example, drag a plugin to the system plugin directories below:
+💡 For example, drag a plugin out of your backup location, to the system plugin directories below:
 
 Example:
 ```
