@@ -1,6 +1,6 @@
 
 ---------------------
-UAD Plugins Tool v2.0
+UAD Plugins Tool v2.1
 ---------------------
 
 <p align="center">
@@ -26,7 +26,7 @@ Main Menu:
 </div>
 
 <div align="center">
-<img width="745" height="466" alt="0  Main Menu" src="https://github.com/user-attachments/assets/b7aad2fd-089d-4a40-b421-b1236947ee2f" />
+<img width="757" height="480" alt="0  Main Menu" src="https://github.com/user-attachments/assets/274e67a3-235b-491d-9a55-2c715e265bda" />
 </div>
 
 <br>
@@ -36,7 +36,7 @@ Option 1) 🗑️  Run UAD Cleanup
 </div>
 
 <div align="center">
-<img width="745" height="466" alt="1  UAD Cleanup option" src="https://github.com/user-attachments/assets/66378a5b-75f0-427c-898c-69990336c120" />
+<img width="757" height="480" alt="1  UAD Cleanup 1" src="https://github.com/user-attachments/assets/58968c6f-8c39-4496-a996-e3c8d571f55b" />
 </div>
 
 <br>
@@ -46,7 +46,7 @@ Option 2) 🔍 UAD Cleanup [DRY RUN]
 </div>
 
 <div align="center">
-<img width="745" height="1052" alt="2  Dry Run Option" src="https://github.com/user-attachments/assets/2762e25e-c185-4374-94f3-d18345f5ed1d" />
+<img width="757" height="984" alt="2  Dry Run 2" src="https://github.com/user-attachments/assets/8b75f479-202f-4afb-9221-c7d6e945abf0" />
 </div>
 
 <br>
@@ -56,7 +56,7 @@ Option 3) ⚙️  Show Preferences
 </div>
 
 <div align="center">
-<img width="745" height="1042" alt="3  Show Prefs Option" src="https://github.com/user-attachments/assets/0465cd49-1edb-4019-a6b8-d457edf37ac0" />
+<img width="757" height="984" alt="3  Show Prefs" src="https://github.com/user-attachments/assets/aa812844-c837-4260-ac5c-4b35df7397e7" />
 </div>
 
 <br>
@@ -79,11 +79,31 @@ Option 5) 🔄 Check For Updates (No GUI)<br>
 <br>
 
 <div align="center">
-Option 6) 📝 ChangeLog
+Option 6) 🔧 Check/Fix Permissions<br>
 </div>
 
 <div align="center">
-<img width="745" height="476" alt="6  ChangeLog option" src="https://github.com/user-attachments/assets/fcec42be-074c-442f-8091-61956d7966a3" />
+<img width="775" height="984" alt="6  Check   Fix Permissions 2" src="https://github.com/user-attachments/assets/1d4d0367-2b44-4565-9029-03de29967958" />
+</div>
+
+<br>
+
+<div align="center">
+Option 7) 📚 UAD Resources<br>
+</div>
+
+<div align="center">
+<img width="757" height="480" alt="7  UAD Resources" src="https://github.com/user-attachments/assets/69a5c7e8-2faa-4a19-8160-2a3674abdfef" />
+</div>
+
+<br>
+
+<div align="center">
+Option 8) 📝 ChangeLog
+</div>
+
+<div align="center">
+<img width="757" height="984" alt="8  ChangeLog" src="https://github.com/user-attachments/assets/fa6c20e6-25c4-42ea-906e-f7dbdbdb794d" />
 </div>
 
 <br>
@@ -92,7 +112,7 @@ Option 6) 📝 ChangeLog
 
 Tested on:
 
-✅ macOS Yosemite through Sequoia 15.6.1
+✅ macOS Yosemite through Tahoe 26.0.1
 
 ✅ UAD Software v9.x.x through v11.8.1
 
@@ -106,13 +126,22 @@ Tested on:
 
 UAD Plugins Tool is a menu-style command line tool that runs in macOS's Terminal.app.
 
-As of v2.0, it now includes options to: run the main UAD plugin cleanup, test a dry run, show your current plugin removal preferences, import your preferences from older versions of this tool, check for updates and view the built-in change log - all within one place.
+It includes options to: 
+
+- run the main UAD plugin cleanup
+- test a dry run
+- show your current plugin removal preferences
+- import your removal preferences
+- check for updates
+- check/fix permissions
+- download the latest/previous versions of UAD Software, check UAD release notes or run the uninstaller
+- view the built-in change log for this tool
 
 The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
 
-Currently, all plugins are listed/populated in this script. However, by default, they are all 'commented out' with the "#" symbol before each plugin title.
-
-Since everyone's plugin usage/ownership is different, it's necessary to manually edit this script to your own personal needs.
+Currently, all plugins listed in this script are 'commented' out with the "#" symbol before each plugin title. 
+Since everyone's plugin usage/ownership is different, it's necessary to manually edit this for the first time.
+But once done, you're all set for tackling the next UAD Software update. Just update your UAD Software and run the script!
 
 Below are instructions on how to edit as well as run the script.
 
@@ -120,15 +149,16 @@ Below are instructions on how to edit as well as run the script.
 
 📂 File Management
 
-Plugin titles without a "#" before their names will be removed from all four directories here:
+Plugin titles without a "#" before their names will be removed from all five directories here:
 ```
 /Library/Application Support/Avid/Audio/Plug-Ins/Universal Audio
 /Library/Audio/Plug-Ins/Components
 /Library/Audio/Plug-Ins/VST/Universal Audio
 /Library/Audio/Plug-Ins/VST3/Universal Audio
+/Applications/Universal Audio/Documentation
 ```
 
-They will then be moved to a newly created folder on the desktop named "UAD_Backup", which has the following sub directories:
+They will then be moved to a newly created folder on the desktop named "UAD_Backup", which will include the following sub directories:
 ```
 AAX
 Component
@@ -142,27 +172,26 @@ From here, you can either backup the plugins or delete them.
 Currently, this will not move, for example, the VST & VST3 versions but keep the AU & AAX versions of a plugin you own - but hopefully that will change in a future update! 
 
 If you don't use certain formats, it's pretty easy to just delete them yourself for now.
+(Please reach out if you'd like to see a feature like this)
 
 ------------------------------------------
 
 🧼 De-Quarantining & Signing
 
 
-By default, macOS flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
+By default, Apple flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
 
 <div align="center">
 <img width="260" height="262" alt="GateKeeper msg" src="https://github.com/user-attachments/assets/b88e06dd-cc47-4f67-9fd9-1c1ecc8dd102" />
 </div>
 
-If you wish to run it by double clicking it, you can remove its quarantine attributes as well as sign the script.
+If you wish to run it by double clicking it, you can remove the quarantine as well as give it the necessary permissions.
 
 1. Copy the command below (including the space at the end of 'prep'):
 ```
 function prep() {
     for file in "$@"; do
-        sudo xattr -cr "$file"
-        sudo xattr -r -d com.apple.quarantine "$file"
-        sudo codesign --force --deep --sign - "$file"
+        sudo xattr -d com.apple.quarantine "$file"
         sudo chmod +x "$file"
     done
 }
@@ -176,14 +205,12 @@ Example:
 ```
 function prep() {
     for file in "$@"; do
-        sudo xattr -cr "$file"
-        sudo xattr -r -d com.apple.quarantine "$file"
-        sudo codesign --force --deep --sign - "$file"
+        sudo xattr -d com.apple.quarantine "$file"
         sudo chmod +x "$file"
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.0.command
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.1.command
 ```
 
 3. Type your password and hit Enter again (password will be invisible).
@@ -229,14 +256,15 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 </div>
 
 3. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
+(If you run into a permissions issue, use the 'Check/Fix Permissions' menu option to fix them)
 
 ------------------------------------------
 
 🔄 Updating UAD Plugins Tool
 
-1. Run the new UAD_Plugins_Tool_2.0.command file.
+1. Run the NEW UAD_Plugins_Tool_2.1.command file.
 2. Choose option 4. '↪️ Import Preferences'.
-3. Drag your old uad_plugins_tool.command file onto the terminal window and press Enter.
+3. Drag your OLD uad_plugins_tool.command file onto the terminal window and press Enter.
 
 <div align="center">
 <img width="745" height="520" alt="4  Import Prefs option" src="https://github.com/user-attachments/assets/8cd1746a-8a67-4bcd-ba13-52c25f6467ec" />
@@ -248,11 +276,9 @@ Done! Continue using the script.
 
 🔌 Backing Up Plugins
 
-Backing up plugins is highly recommended in case you ever need to open an old session that uses one, or if you wish to try out or buy a new plugin.
+Backing up plugins is recommended in case you ever need to open an old session that uses one, or if you wish to try out or buy a new plugin.
 
-💡 For example, drag a plugin out of your backup location, to the system plugin directories below:
-
-Example:
+💡 For example, you would move your backed-up plugins, back to these system directories:
 ```
 BackupDrive/Unused_Plugins/Components/UAD *.component --> '/Library/Audio/Plug-Ins/Components'
 ```
@@ -288,9 +314,8 @@ https://help.uaudio.com/hc/en-us/articles/215270403-UAD-Version-History-Release-
 
 ------------------------------------------
 
-Once you edit your removal preferences the first time, you're all set for tackling the next UAD Software update! 
 If you purchase new plugins that you wish to keep installed, don't forget to add back the "#" before the plugin name to prevent it from being moved out of your plugin folders.
 
-Feel free and get in touch here or via socials if you experience any issues, have suggestions, for more macOS Scripts or want to show support.
+Feel free and get in touch here or via socials if you experience any issues, have suggestions, for more macOS Scripts or want to donate!
 
 https://shop.ryansummer.com
