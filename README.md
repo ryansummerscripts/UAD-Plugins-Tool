@@ -176,7 +176,7 @@ If you don't use certain formats, it's pretty easy to just delete them yourself 
 
 ------------------------------------------
 
-🧼 De-Quarantining & Signing
+🧼 Removing Quarantine
 
 
 By default, Apple flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
