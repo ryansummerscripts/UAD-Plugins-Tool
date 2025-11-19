@@ -1,6 +1,6 @@
 
 ---------------------
-UAD Plugins Tool v2.1
+UAD Plugins Tool v2.2
 ---------------------
 
 <p align="center">
@@ -26,7 +26,7 @@ Main Menu:
 </div>
 
 <div align="center">
-<img width="757" height="480" alt="0  Main Menu" src="https://github.com/user-attachments/assets/274e67a3-235b-491d-9a55-2c715e265bda" />
+<img width="745" height="466" alt="0  Main Menu" src="https://github.com/user-attachments/assets/5d53b4f3-a94e-4114-a055-67faf3a85254" />
 </div>
 
 <br>
@@ -93,17 +93,14 @@ Option 7) 📚 UAD Resources<br>
 </div>
 
 <div align="center">
-<img width="757" height="480" alt="7  UAD Resources" src="https://github.com/user-attachments/assets/69a5c7e8-2faa-4a19-8160-2a3674abdfef" />
+<img width="745" height="466" alt="7  UAD Resources" src="https://github.com/user-attachments/assets/7dd3a920-4813-4d4a-9c1b-62f29053f67f" />
 </div>
 
 <br>
 
 <div align="center">
-Option 8) 📝 ChangeLog
-</div>
-
-<div align="center">
-<img width="757" height="984" alt="8  ChangeLog" src="https://github.com/user-attachments/assets/fa6c20e6-25c4-42ea-906e-f7dbdbdb794d" />
+Option 8) 📝 ChangeLog (No GUI)<br>
+(This just opens up the UAD Plugins Tool changelog webpage in your default browser)
 </div>
 
 <br>
@@ -112,9 +109,9 @@ Option 8) 📝 ChangeLog
 
 Tested on:
 
-✅ macOS Yosemite through Tahoe 26.0.1
+✅ macOS Yosemite through Tahoe 26.1
 
-✅ UAD Software v9.x.x through v11.8.1
+✅ UAD Software v9.x.x through v11.8.2
 
 ✅ Intel & Apple Silcon
 
@@ -210,7 +207,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.1.command
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.2.command
 ```
 
 3. Type your password and hit Enter again (password will be invisible).
@@ -225,9 +222,10 @@ prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.1.command
 2. Under where it says "# List of plugin names", you'll see the list of plugin titles.
 
 <div align="center">
-<img width="533" height="459" alt="TextEdit view" src="https://github.com/user-attachments/assets/15c721e7-b299-465c-8b3d-7e2a10ae34a0" />
+<img width="718" height="571" alt="TextEdit view" src="https://github.com/user-attachments/assets/fab670eb-c6b0-422d-8984-fdb3eb8c53dc" />
 
 </div>
+
 
 By default they're commented out by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
 
@@ -262,7 +260,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 
 🔄 Updating UAD Plugins Tool
 
-1. Run the NEW UAD_Plugins_Tool_2.1.command file.
+1. Run the NEW UAD_Plugins_Tool_2.2.command file.
 2. Choose option 4. '↪️ Import Preferences'.
 3. Drag your OLD uad_plugins_tool.command file onto the terminal window and press Enter.
 
@@ -299,9 +297,9 @@ BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/P
 📚 UAD Resources
 
 
-Latest UAD Software v11.8.1 Direct Download:
+Latest UAD Software v11.8.2 Direct Download:
 ```
-https://builds.uaudio.com/apps/uad2/UAD_11_8_1_75.pkg
+https://builds.uaudio.com/apps/uad2/UAD_11_8_2_180.pkg
 ```
 Previous UAD Software versions:
 ```
