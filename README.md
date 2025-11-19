@@ -132,7 +132,7 @@ It includes options to:
 - check for updates
 - check/fix permissions
 - download the latest/previous versions of UAD Software, check UAD release notes or run the uninstaller
-- view the built-in change log for this tool
+- view the change log for this tool
 
 The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the plugins.
 
