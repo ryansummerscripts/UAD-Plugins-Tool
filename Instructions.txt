@@ -1,18 +1,20 @@
 ========================
-🛠️ UAD Plugins Tool v2.1
+🛠️ UAD Plugins Tool v2.2
 ========================
 
 Tested on:
-✅ macOS Yosemite through Tahoe 26.0.1
-✅ UAD Software v9.x.x through v11.8.1
+✅ macOS Yosemite through Tahoe 26.1
+✅ UAD Software v9.x.x through v11.8.2
 ✅ Intel & Apple Silicon
+
+ChangeLog: https://shop.ryansummer.com/uad-plugins-tool-changelog/
 
 ------------------------------------------
 
 ℹ️ Introduction:
 
 
-This is a menu-style command line tool that runs in macOS's Terminal.app.
+UAD Plugins Tool is a menu-style command line tool that runs in macOS's Terminal.app.
 
 It includes options to: 
 - run the main UAD plugin cleanup
@@ -91,7 +93,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.1.command 
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.2.command 
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
@@ -104,7 +106,7 @@ prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.1.command
 1. To edit the script, right click on the command file and choose Open With > TextEdit.app
 
 2. Under where it says "# List of plugin names", you'll see the list of plugin titles. 
-By default they're 'commented out' by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
+By default they're 'commented' out by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
 (To prevent a plugin title from being removed at any time in the future, simply add back the "#".)
 
 3. Save changes and close TextEdit
@@ -131,7 +133,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 🔄 Updating UAD Plugins Tool:
 
 
-1. Run the NEW UAD_Plugins_Tool_v2.1.command file.
+1. Run the NEW UAD_Plugins_Tool_v2.2.command file.
 2. Choose option 4. '↪️ Import Preferences'.
 3. Drag your OLD uad_plugins_tool.command file onto the terminal window and press Enter.
 
@@ -160,8 +162,8 @@ BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/P
 📚 UAD Resources
 
 
-Latest UAD Software v11.8.1 Direct Download:
-https://builds.uaudio.com/apps/uad2/UAD_11_8_1_75.pkg
+Latest UAD Software v11.8.2 Direct Download:
+https://builds.uaudio.com/apps/uad2/UAD_11_8_2_180.pkg
 
 Previous UAD Software versions:
 https://help.uaudio.com/hc/en-us/articles/215267203-UAD-Software-Archives#h_01H9V0DA4FN4W1HE84V40V3WJ7
