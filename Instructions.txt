@@ -26,7 +26,7 @@ It includes options to:
 - download the latest/previous versions of UAD Software, check UAD release notes or run the uninstaller
 - view the built-in change log for this tool
 
-The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can backup or delete the files.
+The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can then backup or delete the files.
 
 Currently, all plugins listed in this script are 'commented' out with the "#" symbol before each plugin title. 
 Since everyone's plugin usage/ownership is different, it's necessary to manually edit this for the first time.
@@ -116,15 +116,17 @@ By default they're 'commented' out by the "#" symbol. Simply delete the "#" symb
 ▶️ Running Instructions:
 
 
-1. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
+1. Remove any previous "UAD_Backup" folder on your desktop.
+
+2. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
 Upon running the cleanup function, a confirmation will appear before running the script.
 
-2. Press y and then enter.
+3. Press y and then enter.
 
 It will now be running and automatically removing all unused plugins.
 Once finished, it will display "✅ Done" along with a summary of the files removed.
 
-3. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
+4. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
 
 (If you run into a permissions issue, use the 'Check/Fix Permissions' menu option to fix them)
 
