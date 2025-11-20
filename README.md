@@ -237,14 +237,16 @@ By default they're commented out by the "#" symbol. Simply delete the "#" symbol
 
 ▶️ Running Instructions
 
-1. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
+1. Remove any previous "UAD_Backup" folder on your desktop.
+
+2. Double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
 Upon running the cleanup function, a confirmation will appear before running the script.
 
 <div align="center">
 <img width="745" height="466" alt="1  UAD Cleanup option" src="https://github.com/user-attachments/assets/66378a5b-75f0-427c-898c-69990336c120" />
 </div>
 
-2. Press y and then enter.
+3. Press y and then enter.
 
 It will now be running and automatically removing all unused plugins.
 Once finished, it will display "✅ Done" along with a summary of the files removed.
@@ -253,7 +255,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 <img width="745" height="1052" alt="1  UAD Cleanup option 2" src="https://github.com/user-attachments/assets/5f79e61f-c23b-4097-9083-c19d996a2692" />
 </div>
 
-3. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
+4. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
 (If you run into a permissions issue, use the 'Check/Fix Permissions' menu option to fix them)
 
 ------------------------------------------
