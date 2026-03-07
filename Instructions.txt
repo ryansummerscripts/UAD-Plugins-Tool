@@ -1,10 +1,10 @@
 ========================
-🛠️ UAD Plugins Tool v2.2
+🛠️ UAD Plugins Tool v2.3
 ========================
 
 Tested on:
-✅ macOS Yosemite through Tahoe 26.1
-✅ UAD Software v9.x.x through v11.8.2
+✅ macOS Yosemite through Tahoe 26.3.1
+✅ UAD Software v9.x.x through v11.8.3
 ✅ Intel & Apple Silicon
 
 ChangeLog: https://shop.ryansummer.com/uad-plugins-tool-changelog/
@@ -14,23 +14,22 @@ ChangeLog: https://shop.ryansummer.com/uad-plugins-tool-changelog/
 ℹ️ Introduction:
 
 
-UAD Plugins Tool is a menu-style command line tool that runs in macOS's Terminal.app.
+UAD Plugins Tool is a menu-driven command line tool that runs in macOS's Terminal.app.
 
 It includes options to: 
 - run the main UAD plugin cleanup
 - test a dry run
 - show your current plugin removal preferences
 - import your removal preferences
-- check for updates
 - check/fix permissions
 - download the latest/previous versions of UAD Software, check UAD release notes or run the uninstaller
-- view the built-in change log for this tool
+- check for UAD Plugins Tool updates or view the changelog
 
 The purpose of the cleanup function is to move all unused AAX, AU, VST, & VST3 plugins as well as their PDF manuals to a folder on the desktop where you can then backup or delete the files.
 
 Currently, all plugins listed in this script are 'commented' out with the "#" symbol before each plugin title. 
 Since everyone's plugin usage/ownership is different, it's necessary to manually edit this for the first time.
-But once done, you're all set for tackling the next UAD Software update. Just update your UAD Software and run the script!
+But once done, you're all set for tackling the next UAD Software update. Just update your UAD Software and run the cleanup option!
 
 Below are instructions on how to edit as well as run the script.
 
@@ -93,7 +92,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.2.command 
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.3.command 
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
@@ -115,10 +114,9 @@ By default they're 'commented' out by the "#" symbol. Simply delete the "#" symb
 
 ▶️ Running Instructions:
 
-
 1. Remove any previous "UAD_Backup" folder on your desktop.
 
-2. Simply double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
+2. Double click the command file. It will then open Terminal and display the Main Menu. Choose option 1 for cleanup (or another option) and press Enter.
 Upon running the cleanup function, a confirmation will appear before running the script.
 
 3. Press y and then enter.
@@ -135,9 +133,9 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 🔄 Updating UAD Plugins Tool:
 
 
-1. Run the NEW UAD_Plugins_Tool_v2.2.command file.
+1. Run the NEW UAD_Plugins_Tool_v2.3.command file.
 2. Choose option 4. '↪️ Import Preferences'.
-3. Drag your OLD uad_plugins_tool.command file onto the terminal window and press Enter.
+3. Drag your OLD UAD_Plugins_Tool*.command file onto the terminal window and press Enter.
 
 Done! Continue using the script.
 
@@ -164,8 +162,8 @@ BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/P
 📚 UAD Resources
 
 
-Latest UAD Software v11.8.2 Direct Download:
-https://builds.uaudio.com/apps/uad2/UAD_11_8_2_180.pkg
+Latest UAD Software v11.8.3 Direct Download:
+https://builds.uaudio.com/apps/uad2/UAD_11_8_3_321.pkg
 
 Previous UAD Software versions:
 https://help.uaudio.com/hc/en-us/articles/215267203-UAD-Software-Archives#h_01H9V0DA4FN4W1HE84V40V3WJ7
