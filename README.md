@@ -253,8 +253,10 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 <div align="center">
 <img width="757" height="480" alt="4  Import Preferences 01" src="https://github.com/user-attachments/assets/d49172e6-2e3c-4015-aafe-9a30740de9a8" />
 </div>
-
-Done! Continue using the script.
+<div align="center">
+<img width="757" height="480" alt="4  Import Preferences 02" src="https://github.com/user-attachments/assets/8a102d05-2256-4ebf-9725-0f58e7870155" />
+</div>
+Done! Hit enter and continue using the script.
 
 ------------------------------------------
 
