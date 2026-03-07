@@ -84,9 +84,9 @@ Option 5) 🔧 Check/Fix Permissions<br>
 <div align="center">
 Option 6) 📚 Resources<br>
 </div>
-<img width="757" height="480" alt="6  Resources" src="https://github.com/user-attachments/assets/a987ddf6-af4b-4fb5-a48c-df1ed5c3ed54" />
-<div align="center">
 
+<div align="center">
+<img width="757" height="480" alt="6  Resources" src="https://github.com/user-attachments/assets/a987ddf6-af4b-4fb5-a48c-df1ed5c3ed54" />
 </div>
 
 <br>
