@@ -95,7 +95,7 @@ Option 6) 📚 Resources<br>
 
 Tested on:
 
-✅ macOS Yosemite through Tahoe 26.3.1
+✅ macOS Yosemite through Tahoe 26.4
 
 ✅ UAD Software v9.x.x through v11.8.3
 
