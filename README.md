@@ -161,7 +161,7 @@ If you don't use certain formats, it's pretty easy to just delete them yourself 
 🧼 Removing Quarantine
 
 
-By default, Apple flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. 
+By default, Apple flags & quarantines unsigned files downloaded from the internet, preventing this from being ran simply by double clicking it. (Sorry, we are not yet in the Apple Developer program)
 
 <div align="center">
 <img width="260" height="262" alt="GateKeeper msg" src="https://github.com/user-attachments/assets/b88e06dd-cc47-4f67-9fd9-1c1ecc8dd102" />
