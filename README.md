@@ -232,9 +232,8 @@ prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.4.command
 2. Under where it says "# List of plugin names", you'll see the list of plugin titles.
 
 <div align="center">
-<img width="718" height="573" alt="TextEdit view" src="https://github.com/user-attachments/assets/c9f542dd-eb2f-413c-b9c7-eb73179e709a" />
+<img width="717" height="570" alt="TextEdit view" src="https://github.com/user-attachments/assets/9426f73d-7325-482a-925d-b75e909f6519" />
 </div>
-
 
 By default they're commented out by the "#" symbol. Simply delete the "#" symbol for the titles you wish to remove. 
 
