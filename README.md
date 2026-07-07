@@ -1,6 +1,6 @@
 
 ---------------------
-UAD Plugins Tool v2.3
+UAD Plugins Tool v2.4
 ---------------------
 
 <p align="center">
@@ -13,7 +13,7 @@ UAD Plugins Tool v2.3
 https://shop.ryansummer.com/p/uad-plugins-tool/
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
 📸 Screenshots:
@@ -26,7 +26,7 @@ Main Menu:
 </div>
 
 <div align="center">
-<img width="757" height="480" alt="0  UAD Plugins Tool Main Menu" src="https://github.com/user-attachments/assets/bff61740-c913-4b30-8347-e587ba92f6a3" />
+<img width="745" height="466" alt="0  UAD Plugins Tool Main Menu" src="https://github.com/user-attachments/assets/0b57eac1-9ab9-4bc3-b8d2-87ff9d673e7d" />
 </div>
 
 <br>
@@ -39,6 +39,10 @@ Option 1) 🗑️  Run UAD Cleanup
 <img width="757" height="480" alt="1  UAD Cleanup 01" src="https://github.com/user-attachments/assets/2266d5e1-0757-48fa-a96b-85f6272a92ab" />
 </div>
 
+<div align="center">
+<img width="757" height="984" alt="1  UAD Cleanup 02" src="https://github.com/user-attachments/assets/14aca79f-f5b0-4ffe-a52a-13696ca3a5fb" />
+</div>
+
 <br>
 
 <div align="center">
@@ -46,7 +50,11 @@ Option 2) 🔍 UAD Cleanup [DRY RUN]
 </div>
 
 <div align="center">
-<img width="757" height="984" alt="2  UAD Cleanup Dry Run 02" src="https://github.com/user-attachments/assets/b574dbcf-6e7a-433c-8077-0a4c9faaa2ad" />
+<img width="757" height="480" alt="2  UAD Cleanup Dry Run 01" src="https://github.com/user-attachments/assets/bb35a4a6-960d-49c7-b844-bcfe577c0527" />
+</div>
+
+<div align="center">
+<img width="757" height="984" alt="2  UAD Cleanup Dry Run 02" src="https://github.com/user-attachments/assets/26619e98-0cd5-4358-b5a2-ef33f89c3ad8" />
 </div>
 
 <br>
@@ -56,7 +64,7 @@ Option 3) ⚙️  Show Preferences
 </div>
 
 <div align="center">
-<img width="757" height="984" alt="3  Show Preferences" src="https://github.com/user-attachments/assets/f28083b4-cd11-4bbb-9b99-cf367e9b3bd5" />
+<img width="757" height="984" alt="3  Show Preferences" src="https://github.com/user-attachments/assets/af5039d5-55c2-4c69-9f74-1b41e8f03aae" />
 </div>
 
 <br>
@@ -66,7 +74,11 @@ Option 4) ↪️  Import Preferences
 </div>
 
 <div align="center">
-<img width="757" height="480" alt="4  Import Preferences 02" src="https://github.com/user-attachments/assets/8a102d05-2256-4ebf-9725-0f58e7870155" />
+<img width="757" height="480" alt="4  Import Preferences 01" src="https://github.com/user-attachments/assets/37fd50cb-4e84-40c9-803f-1852629d9a9c" />
+</div>
+
+<div align="center">
+<img width="757" height="480" alt="4  Import Preferences 02" src="https://github.com/user-attachments/assets/65e33b1f-72e4-46e0-9315-c3818c051fd4" />
 </div>
 
 <br>
@@ -86,18 +98,31 @@ Option 6) 📚 Resources<br>
 </div>
 
 <div align="center">
-<img width="757" height="480" alt="6  Resources" src="https://github.com/user-attachments/assets/a987ddf6-af4b-4fb5-a48c-df1ed5c3ed54" />
+<img width="757" height="480" alt="6  Resources" src="https://github.com/user-attachments/assets/70409816-53f2-4673-96f6-1915c2a60d65" />
 </div>
 
 <br>
 
 ------------------------------------------
 
+<div align="center">
+  Latest Version<br>
+  v2.4<br>
+  SHA-256: 257742babdc2ccc767b5029b34020791d2a147c7ea74d440e6fda5e3df4473d9<br>
+</div>
+
+<br>
+
+<div align="center">
+  ChangeLog:<br>
+  https://shop.ryansummer.com/uad-plugins-tool-changelog/<br>
+</div>
+
 Tested on:
 
-✅ macOS Yosemite through Tahoe 26.4
+✅ macOS Yosemite through Tahoe 26.5.2
 
-✅ UAD Software v9.x.x through v11.8.3
+✅ UAD Software v9.x.x through v11.9.0
 
 ✅ Intel & Apple Silcon
 
@@ -192,7 +217,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.3.command
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.4.command
 ```
 
 3. Type your password and hit Enter again (password will be invisible).
@@ -246,7 +271,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 
 🔄 Updating UAD Plugins Tool
 
-1. Run the NEW UAD_Plugins_Tool_2.3.command file.
+1. Run the NEW UAD_Plugins_Tool_2.4.command file.
 2. Choose option 4. '↪️ Import Preferences'.
 3. Drag your OLD UAD_Plugins_Tool*.command file onto the terminal window and press Enter.
 
@@ -287,7 +312,9 @@ BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/P
 
 Latest UAD Software v11.8.3 Direct Download:
 ```
-https://builds.uaudio.com/apps/uad2/UAD_11_8_3_321.pkg
+<img width="745" height="466" alt="0  UAD Plugins Tool Main Menu" src="https://github.com/user-attachments/assets/5d0148d3-4463-4059-a9fd-62f73000092a" />
+<img width="745" height="466" alt="0  UAD Plugins Tool Main Menu" src="https://github.com/user-attachments/assets/fb9c24e3-a8d1-4c9a-b8dc-90ce7e6a4fea" />
+https://builds.uaudio.com/apps/uad2/UAD_11_9_0_515.pkg
 ```
 Previous UAD Software versions:
 ```
