@@ -260,7 +260,7 @@ It will now be running and automatically removing all unused plugins.
 Once finished, it will display "✅ Done" along with a summary of the files removed.
 
 <div align="center">
-<img width="757" height="984" alt="1  UAD Cleanup 02" src="https://github.com/user-attachments/assets/6512024f-42d2-4e54-95fa-c509d5b6c35f" />
+<img width="757" height="984" alt="1  UAD Cleanup 02" src="https://github.com/user-attachments/assets/ec197f85-1a1d-43c4-9acb-dab5a8022f01" />
 </div>
 
 4. Simply find the "UAD_Backup" folder on your desktop and either backup the plugins or delete them.
@@ -278,8 +278,9 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 <img width="757" height="480" alt="4  Import Preferences 01" src="https://github.com/user-attachments/assets/d49172e6-2e3c-4015-aafe-9a30740de9a8" />
 </div>
 <div align="center">
-<img width="757" height="480" alt="4  Import Preferences 02" src="https://github.com/user-attachments/assets/8a102d05-2256-4ebf-9725-0f58e7870155" />
+<img width="757" height="480" alt="4  Import Preferences 02" src="https://github.com/user-attachments/assets/d9bbed5e-a1de-4368-8bfc-fc7438dd0b52" />
 </div>
+
 Done! Hit enter and continue using the script.
 
 ------------------------------------------
