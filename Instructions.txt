@@ -1,10 +1,10 @@
 ========================
-🛠️ UAD Plugins Tool v2.3
+🛠️ UAD Plugins Tool v2.4
 ========================
 
 Tested on:
-✅ macOS Yosemite through Tahoe 26.3.1
-✅ UAD Software v9.x.x through v11.8.3
+✅ macOS Yosemite through Tahoe 26.5.2
+✅ UAD Software v9.x.x through v11.9.0
 ✅ Intel & Apple Silicon
 
 ChangeLog: https://shop.ryansummer.com/uad-plugins-tool-changelog/
@@ -92,7 +92,7 @@ function prep() {
     done
 }
 
-prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.3.command 
+prep /Users/YOURUSERNAME/Downloads/UAD_Plugins_Tool_v2.4.command 
 
 3. Type your password and hit Enter again (password will be invisible).
 4. The command file should now open as usual when double clicking it.
@@ -133,7 +133,7 @@ Once finished, it will display "✅ Done" along with a summary of the files remo
 🔄 Updating UAD Plugins Tool:
 
 
-1. Run the NEW UAD_Plugins_Tool_v2.3.command file.
+1. Run the NEW UAD_Plugins_Tool_v2.4.command file.
 2. Choose option 4. '↪️ Import Preferences'.
 3. Drag your OLD UAD_Plugins_Tool*.command file onto the terminal window and press Enter.
 
@@ -162,8 +162,8 @@ BackupDrive/Unused_Plugins/VST3/Universal Audio/UAD *.vst3 --> '/Library/Audio/P
 📚 UAD Resources
 
 
-Latest UAD Software v11.8.3 Direct Download:
-https://builds.uaudio.com/apps/uad2/UAD_11_8_3_321.pkg
+Latest UAD Software v11.9.0 Direct Download:
+https://builds.uaudio.com/apps/uad2/UAD_11_9_0_515.pkg
 
 Previous UAD Software versions:
 https://help.uaudio.com/hc/en-us/articles/215267203-UAD-Software-Archives#h_01H9V0DA4FN4W1HE84V40V3WJ7
